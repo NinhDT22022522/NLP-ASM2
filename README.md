@@ -2,7 +2,7 @@
 
 1. Chuẩn bị dữ liệu
 
-Từ viwiki tải file [viwiki-20240701-pages-articles-multistream4.xml-p4565247p6065246](viwiki-20240701-pages-articles-multistream4.xml-p4565247p6065246), sử dụng wikiextractor lấy được nội dung [wiki_00](AA/wiki_00)
+Từ viwiki tải file [viwiki-20240701-pages-articles-multistream4.xml-p4565247p6065246](ASM2.1/viwiki-20240701-pages-articles-multistream4.xml-p4565247p6065246), sử dụng wikiextractor lấy được nội dung [wiki_00](ASM2.1/AA/wiki_00)
 
 2. Tiền xử lý dữ liệu
 
@@ -37,9 +37,9 @@ def word_segment(sent):
     return sent
 ```
 
-Kết quả ta có file [datatrain.txt](datatrain.txt)
+Kết quả ta có file [datatrain.txt](ASM2.1/datatrain.txt)
 
-![datatrain.txt](image/datatrain.png)
+![datatrain.txt](ASM2.1/image/datatrain.png)
 
 
 3. Train mô hình sử dụng word2vec và fastText
@@ -119,4 +119,4 @@ if __name__ == '__main__':
 
 4. Demo
 
-![demo](image/demo.png)
+![demo](ASM2.1/image/demo.png)
