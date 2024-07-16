@@ -119,4 +119,4 @@ if __name__ == '__main__':
 
 4. Demo
 
-![demo](/workspaces/NLP-ASM2/image/demo.png)
+![demo](image/demo.png)
